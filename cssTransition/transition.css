@@ -1,0 +1,27 @@
+.kick {
+    transition: transform .25s ease-in;
+    height: 50px;
+}
+
+.playing .kick{
+    transform: translateX(30px);
+    transition-property: transform 1s .25s;
+}
+
+.run{
+    height: 50px;
+    transition: transform .25s ease-in;
+    /* transition-property: transform 1s .25s; */
+    /* transition-duration: 1s;
+    transition-delay: .25s; */
+}
+
+.kick:hover {
+    height: 80px;
+}
+
+.playing .run{
+    
+    transform: translateX(100px);
+    transition-property: transform 1s .25s;
+}
